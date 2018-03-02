@@ -5,24 +5,24 @@ a notification window float over status bar, area over status bar is not clickab
 
 # directory
 ~~~~
-└── windowfloatoverstatusbar<br/>
-  ├── MainActivity.java<br/>
-  ├── SubActivity.java<br/>
-  ├── adapter<br/>
-  │   └── FlipperAdapter.java<br/>
-  ├── application<br/>
-  │   └── DemoApplication.java<br/>
-  └── model<br/>
-      └── FloatWindow.java<br/>
+└── windowfloatoverstatusbar
+  ├── MainActivity.java
+  ├── SubActivity.java
+  ├── adapter
+  │   └── FlipperAdapter.java
+  ├── application
+  │   └── DemoApplication.java
+  └── model
+      └── FloatWindow.java
       
 └── res<br/>
   ├── anim<br/>
-  │   └── bottom_in.xml<br/>
+  │   └── bottom_in.xml
   ├── layout<br/>
-  │   ├── activity_main.xml<br/>
-  │   ├── activity_sub.xml<br/>
-  │   ├── float_view.xml<br/>
-  │   ├── float_view_item.xml<br/>
+  │   ├── activity_main.xml
+  │   ├── activity_sub.xml
+  │   ├── float_view.xml
+  │   ├── float_view_item.xml
 ~~~~ 
 
 # demo
