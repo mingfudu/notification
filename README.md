@@ -1,5 +1,28 @@
 # notification
-a notification area float over status bar
 
-##
-![demo](https://user-images.githubusercontent.com/11880676/36884631-80367498-1e25-11e8-965a-07e873e62535.gif)
+a notification window float over status bar, area over status bar is not clickable.
+- only message click and delete icon click is support by a interface
+
+# directory
+
+└── windowfloatoverstatusbar
+  ├── MainActivity.java
+  ├── SubActivity.java
+  ├── adapter
+  │   └── FlipperAdapter.java
+  ├── application
+  │   └── DemoApplication.java
+  └── model
+      └── FloatWindow.java
+
+└── res
+    ├── anim
+    │   └── bottom_in.xml
+    ├── layout
+    │   ├── activity_main.xml
+    │   ├── activity_sub.xml
+    │   ├── float_view.xml
+    │   ├── float_view_item.xml
+    
+# demo
+![notification demo](https://user-images.githubusercontent.com/11880676/36884870-f0ecccfe-1e26-11e8-8c48-99bdaefed940.gif)
